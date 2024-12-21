@@ -6,8 +6,11 @@ public class ExpressionEvaluation {
 
     public static int evaluate (String expression)
     {
-
-                return 0;
+       if (expression.equals(" ")){
+                return 0;}
+else{
+    return Integer.parseInt(expression);
+       }
 
 
     }
