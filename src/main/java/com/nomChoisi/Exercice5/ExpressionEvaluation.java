@@ -8,10 +8,15 @@ public class ExpressionEvaluation {
     {
        if (expression.equals(" ")){
                 return 0;}
-else{
+else if(!expression.contains(",")){
     return Integer.parseInt(expression);
-       }
+       }else{
+  String[] tab= expression.split(",");
+  int sum =Integer.parseInt(tab[0])+Integer.parseInt(tab[1]);
+  return sum;
 
-
+        }
     }
+
+
 }
