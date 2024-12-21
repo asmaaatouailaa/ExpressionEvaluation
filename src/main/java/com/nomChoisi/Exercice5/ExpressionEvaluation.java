@@ -4,7 +4,7 @@ public class ExpressionEvaluation {
 
     public static int evaluate (String expression)
     {
-        return 4;
+        return 0;
 
     }
 }
