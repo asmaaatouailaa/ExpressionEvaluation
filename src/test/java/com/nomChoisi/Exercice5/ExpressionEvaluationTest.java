@@ -37,6 +37,16 @@ public class ExpressionEvaluationTest {
         //THEN
         assertEquals(resultatexpected,resultat);
     }
+    @Test
+    public void evaluatededuchainede10_et6et6retourn(){
+        //GIVEN
+        int resultatexpected =22 ;
+        //WHEN
+        int resultat = ExpressionEvaluation.evaluate("10,6,6");
+
+        //THEN
+        assertEquals(resultatexpected,resultat);
+    }
 
 
 
