@@ -15,4 +15,15 @@ public class ExpressionEvaluationTest {
         //THEN
         assertEquals(resultatexpected,resultat);
     }
+    @Test
+
+    public void evaluatededuchainevide3_5retourn8(){
+        //GIVEN
+        int resultatexpected = 8;
+        //WHEN
+        int resultat = ExpressionEvaluation.evaluate("3,5");
+
+        //THEN
+        assertEquals(resultatexpected,resultat);
+    }
 }
