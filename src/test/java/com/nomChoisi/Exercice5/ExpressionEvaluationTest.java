@@ -17,13 +17,16 @@ public class ExpressionEvaluationTest {
     }
     @Test
 
-    public void evaluatededuchainevide3_5retourn8(){
+    public void evaluatededuchainevide20retourn20(){
         //GIVEN
-        int resultatexpected = 8;
+        int resultatexpected = 20;
         //WHEN
-        int resultat = ExpressionEvaluation.evaluate("3,5");
+        int resultat = ExpressionEvaluation.evaluate("20");
 
         //THEN
         assertEquals(resultatexpected,resultat);
     }
+
+
+
 }
