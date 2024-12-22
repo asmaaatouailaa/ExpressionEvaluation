@@ -10,15 +10,6 @@ public class ExpressionEvaluation {
             return 0;
         } else if (!expression.contains(",")) {
             return Integer.parseInt(expression);
-        } else if (expression.split(",").length == 2) {
-            String[] tab = expression.split(",");
-
-             sum = Integer.parseInt(tab[0]) + Integer.parseInt(tab[1]);
-            return sum;
-        } else if(expression.split(",").length == 2) {
-            String[] tab = expression.split(",");
-             sum = Integer.parseInt(tab[0]) + Integer.parseInt(tab[1]) + Integer.parseInt(tab[2]);
-
 
         }else {
             String[] tab = expression.split(",");
